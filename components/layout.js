@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
 import Head from 'next/head'
-import Header from './header'
-import Dropdown from './dropdown'
+import Header from './Header'
+import Dropdown from './Dropdown'
+import Search from './Search'
 export default function Layout({ title, keywords, description, children }) {
 
     const [isOpen, setIsOpen] = useState(false)
@@ -32,6 +33,7 @@ export default function Layout({ title, keywords, description, children }) {
             </Head>
 
             <Header toggle={toggle} />
+            <Search />
             <Dropdown toggle={toggle} isOpen={isOpen} />
             <main className='container mx-auto my-7'>{children}</main>
         </>

@@ -11,7 +11,8 @@ export default function Header({ toggle }) {
                     <div>
                         <Link href='/'>
                             <a className="flex title-font font-medium items-center">
-                                <Image src='/images/logo.png' width={40} height={40} alt='logo' />
+                                {/* <Image src='/images/logo.png' width={40} height={40} alt='logo' /> */}
+                                <img src='/images/logo.png' width={40} height={40} alt='logo' />
                                 <span className='ml-3 text-xl'>YourSpace</span>
                             </a>
                         </Link>

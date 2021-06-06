@@ -1,6 +1,6 @@
-import Layout from '../components/layout'
+import Layout from '@/components/Layout'
 
-export default function About() {
+export default function AboutPage() {
     return (
         <Layout title='about YourSpace'>
             <h1 className='text-5xl border-b-4 p-5 font-bold'>

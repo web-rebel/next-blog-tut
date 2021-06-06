@@ -1,13 +1,19 @@
 import Link from "next/link"
 import Image from "next/image"
-import Layout from "../components/layout"
+import Layout from "@/components/Layout"
 
 export default function NotFoundPage() {
     return (
         <Layout title="Page Not Found">
             <div className="flex flex-col items-center content-center mt-20">
 
-                <Image
+                {/* <Image
+                    src="/images/logo.png"
+                    width={70}
+                    height={70}
+                    className="bg-gray-900 rounded-2xl"
+                /> */}
+                <img
                     src="/images/logo.png"
                     width={70}
                     height={70}
